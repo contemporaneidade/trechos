@@ -1,0 +1,1 @@
+php executar.php cotas_quotes.txt

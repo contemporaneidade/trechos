@@ -1,0 +1,126 @@
+Version=5104
+Entête
+	Historique=5.1.0.4(Luiz);
+	Langue=PO
+	StadePanneau=30
+Fin
+Questions
+	Question
+		Libellé=Quantidade de observações reagrupadas
+		Variable=QT_REPET
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Format=jj/mm/aaaa hh:nn:ss
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=identificação única
+		Variable=identificação única
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=responsável
+		Variable=responsável
+		Type=1
+		NbModalités=7
+		Modalités=Diego ; Larissa ; Leo ; Luiz ; Pedro ; Super ; Verônica ;
+		Pondérations= 0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=código
+		Variable=código
+		Type=2
+		NbModalités=83
+		Modalités=c01 ; c02 ; c03 ; c04 ; c05 ; c06 ; c07 ; c08 ; c09 ; c10 ; c11 ; c12 ; c13 ; c14 ; c15 ; c16 ; c17 ; c18 ; c19 ; c20 ; c21 ; c22 ; c23 ; c24 ; c25 ; c26 ; c27 ; c28 ; c29 ; c30 ; c31 ; c32 ; c33 ; c34 ; c35 ; c36 ; c37 ; c38 ; c39 ; c40 ; c41 ; c42 ; c43 ; c44 ; c45 ; c46 ; c47 ; c48 ; f01 ; f02 ; f03 ; f04 ; f05 ; f06 ; f07 ; f08 ; f09 ; f10 ; f11 ; f12 ; f13 ; f14 ; f15 ; f16 ; f17 ; f18 ; f19 ; f20 ; f21 ; f22 ; f23 ; f24 ; f25 ; f26 ; f27 ; f28 ; f29 ; f30 ; f31 ; f32 ; f33 ; f34 ; f35 ;
+		MaxRéponses=7
+		Pondérations= 0
+		Consigne=Você pode marcar diversas casas (7 no máximo).
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Identificação parágrafo
+		Variable=Identificação parágrafo
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Clusters João
+		Variable=Clusters João
+		Type=2
+		NbModalités=3
+		Modalités=Raça e ID Nacional ; Estado e Cidadania ; Procedimentos e Resultados ;
+		MaxRéponses=3
+		Pondérations= 0
+		Consigne=Você pode marcar diversas casas.
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=Caracteres
+		Variable=Caracteres
+		Type=4
+		NbDécimales=2
+		TypeNombre=2
+		Format=jj/mm/aaaa hh:nn:ss
+		Plan=1
+		Attributs=32
+	Fin
+	Question
+		Libellé=trecho
+		Variable=trecho
+		Type=6
+		NbLignes=2
+		NbCarLigne=0
+		Plan=1
+		Attributs=32
+	Fin
+Fin
+Strates
+	Strate
+		Nom=Raça e ID nacional
+		Active=0
+		Filtre
+			Opérateur=-1
+			Variable=3
+			Compris=1
+			Modalités= 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 0 0 1 0 0 0 0 1 1 1
+			Numérique=0
+		Fin
+	Fin
+	Strate
+		Nom=Estado e Cidadania
+		Active=0
+		Filtre
+			Opérateur=-1
+			Variable=3
+			Compris=1
+			Modalités= 0 0 0 0 0 0 1 1 1 1 0 1 0 1 0 1 0 0 1 0 0 1 1 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1
+			Numérique=0
+		Fin
+	Fin
+	Strate
+		Nom=Procedimentos e Resultados
+		Active=0
+		Filtre
+			Opérateur=-1
+			Variable=3
+			Compris=1
+			Modalités= 0 0 1 0 1 0 0 0 0 0 1 0 1 0 1 0 1 1 0 1 1 0 0 1 1 1 0 1 1 0 1 0 0 1 0 1 0 0 1 1 0 1 1 1
+			Numérique=0
+		Fin
+	Fin
+Fin
+Options
+Fin
